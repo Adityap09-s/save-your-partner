@@ -1,0 +1,1267 @@
+{
+  "teams": [
+    {
+      "id": "mum7tae23vw64",
+      "code": "SYP-3229",
+      "teamName": "1",
+      "members": [
+        {
+          "name": "1",
+          "phone": "1",
+          "email": "1@gmail.com"
+        },
+        {
+          "name": "2",
+          "phone": "2",
+          "email": "21@gmail.com"
+        }
+      ],
+      "playableMemberIndex": 1,
+      "status": "finished",
+      "createdAt": "2026-09-29T05:07:39.866Z",
+      "result": {
+        "time": 376,
+        "completedAt": "2026-09-29T05:14:51.875Z",
+        "player": "2"
+      },
+      "category": "grouped",
+      "questionGroup": 2,
+      "startedAt": 1790658515635
+    },
+    {
+      "id": "mum83mto93816",
+      "code": "SYP-1480",
+      "teamName": "2",
+      "members": [
+        {
+          "name": "1",
+          "phone": "1",
+          "email": "1@gmail.com"
+        },
+        {
+          "name": "2",
+          "phone": "2",
+          "email": "21@gmail.com"
+        }
+      ],
+      "playableMemberIndex": 0,
+      "status": "finished",
+      "createdAt": "2026-09-29T05:15:42.540Z",
+      "result": {
+        "time": 327,
+        "completedAt": "2026-10-06T00:10:54.637Z",
+        "player": "1"
+      },
+      "category": "grouped",
+      "questionGroup": 1,
+      "startedAt": 1791245126929
+    }
+  ],
+  "questionGroups": [
+    [
+      {
+        "id": "1-1",
+        "group": 0,
+        "index": 0,
+        "type": "debug",
+        "question": "Fix the missing symbol in this C code.",
+        "code": "int a = 10\nprintf(\"%d\", a);",
+        "answer": "1",
+        "hint": "Add the missing semicolon after the first line."
+      },
+      {
+        "id": "1-2",
+        "group": 0,
+        "index": 1,
+        "type": "code",
+        "question": "Write a C program statement that stores 10 in variable a.",
+        "code": "",
+        "answer": "int a = 10;",
+        "hint": "Use a simple integer variable declaration."
+      },
+      {
+        "id": "1-3",
+        "group": 0,
+        "index": 2,
+        "type": "debug",
+        "question": "Fix the missing semicolon.",
+        "code": "int marks = 50\nprintf(\"%d\", marks);",
+        "answer": ";",
+        "hint": "The declaration needs a semicolon."
+      },
+      {
+        "id": "1-4",
+        "group": 0,
+        "index": 3,
+        "type": "code",
+        "question": "Write one C statement to print the value 10.",
+        "code": "",
+        "answer": "printf(\"%d\", 10);",
+        "hint": "Use printf with the integer 10."
+      },
+      {
+        "id": "1-5",
+        "group": 0,
+        "index": 4,
+        "type": "debug",
+        "question": "Fix the missing semicolon.",
+        "code": "int x = 5\nint y = 3;",
+        "answer": ";",
+        "hint": "The first declaration needs a semicolon."
+      },
+      {
+        "id": "1-6",
+        "group": 0,
+        "index": 5,
+        "type": "code",
+        "question": "Write a C statement to store 20 in variable age.",
+        "code": "",
+        "answer": "int age = 20;",
+        "hint": "Declare an integer named age."
+      },
+      {
+        "id": "1-7",
+        "group": 0,
+        "index": 6,
+        "type": "debug",
+        "question": "Fix the missing semicolon.",
+        "code": "int total = 15\nreturn 0;",
+        "answer": ";",
+        "hint": "The variable declaration needs a semicolon."
+      },
+      {
+        "id": "1-8",
+        "group": 0,
+        "index": 7,
+        "type": "code",
+        "question": "Write a C statement that adds a and b and stores the result in sum.",
+        "code": "",
+        "answer": "int sum = a + b;",
+        "hint": "Use the + operator."
+      },
+      {
+        "id": "1-9",
+        "group": 0,
+        "index": 8,
+        "type": "debug",
+        "question": "Fix the missing semicolon.",
+        "code": "int number = 7\nprintf(\"%d\", number);",
+        "answer": ";",
+        "hint": "The declaration needs a semicolon."
+      },
+      {
+        "id": "1-10",
+        "group": 0,
+        "index": 9,
+        "type": "code",
+        "question": "Write a C statement that stores 5 + 3 in result.",
+        "code": "",
+        "answer": "int result = 5 + 3;",
+        "hint": "Use an integer declaration and + operator."
+      },
+      {
+        "id": "1-11",
+        "group": 0,
+        "index": 10,
+        "type": "debug",
+        "question": "Fix the missing semicolon.",
+        "code": "int a = 2\nint b = 4;",
+        "answer": ";",
+        "hint": "The first line needs a semicolon."
+      },
+      {
+        "id": "1-12",
+        "group": 0,
+        "index": 11,
+        "type": "code",
+        "question": "Write a C statement that prints the value of variable x.",
+        "code": "",
+        "answer": "printf(\"%d\", x);",
+        "hint": "Use printf with %d."
+      },
+      {
+        "id": "1-13",
+        "group": 0,
+        "index": 12,
+        "type": "debug",
+        "question": "Fix the missing semicolon.",
+        "code": "int score = 90\nprintf(\"%d\", score);",
+        "answer": ";",
+        "hint": "The declaration needs a semicolon."
+      },
+      {
+        "id": "1-14",
+        "group": 0,
+        "index": 13,
+        "type": "code",
+        "question": "Write a C statement to store 100 in variable marks.",
+        "code": "",
+        "answer": "int marks = 100;",
+        "hint": "Use an integer variable."
+      },
+      {
+        "id": "1-15",
+        "group": 0,
+        "index": 14,
+        "type": "debug",
+        "question": "Fix the missing semicolon.",
+        "code": "int n = 8\nprintf(\"%d\", n);",
+        "answer": ";",
+        "hint": "Add a semicolon after the declaration."
+      },
+      {
+        "id": "1-16",
+        "group": 0,
+        "index": 15,
+        "type": "code",
+        "question": "Write a C statement that subtracts b from a and stores it in d.",
+        "code": "",
+        "answer": "int d = a - b;",
+        "hint": "Use the - operator."
+      },
+      {
+        "id": "1-17",
+        "group": 0,
+        "index": 16,
+        "type": "debug",
+        "question": "Fix the missing semicolon.",
+        "code": "int price = 50\nint qty = 2;",
+        "answer": ";",
+        "hint": "The first declaration needs a semicolon."
+      },
+      {
+        "id": "1-18",
+        "group": 0,
+        "index": 17,
+        "type": "code",
+        "question": "Write a C statement to multiply x by 2 and store it in y.",
+        "code": "",
+        "answer": "int y = x * 2;",
+        "hint": "Use the * operator."
+      },
+      {
+        "id": "1-19",
+        "group": 0,
+        "index": 18,
+        "type": "debug",
+        "question": "Fix the missing semicolon.",
+        "code": "int value = 25\nprintf(\"%d\", value);",
+        "answer": ";",
+        "hint": "The declaration needs a semicolon."
+      },
+      {
+        "id": "1-20",
+        "group": 0,
+        "index": 19,
+        "type": "code",
+        "question": "Write a C statement that divides a by 2 and stores it in half.",
+        "code": "",
+        "answer": "int half = a / 2;",
+        "hint": "Use the / operator."
+      }
+    ],
+    [
+      {
+        "id": "2-1",
+        "group": 1,
+        "index": 0,
+        "type": "debug",
+        "question": "Fix the missing semicolon.",
+        "code": "int x = 10\nint y = 20;",
+        "answer": ";",
+        "hint": "Add the missing semicolon."
+      },
+      {
+        "id": "2-2",
+        "group": 1,
+        "index": 1,
+        "type": "code",
+        "question": "Write a C statement to find the sum of 4 and 6.",
+        "code": "",
+        "answer": "int sum = 4 + 6;",
+        "hint": "Use +."
+      },
+      {
+        "id": "2-3",
+        "group": 1,
+        "index": 2,
+        "type": "debug",
+        "question": "Fix the missing bracket.",
+        "code": "int main() {\n  printf(\"Hello\");\n",
+        "answer": "}",
+        "hint": "Close main with }."
+      },
+      {
+        "id": "2-4",
+        "group": 1,
+        "index": 3,
+        "type": "code",
+        "question": "Write a C statement that prints Hello.",
+        "code": "",
+        "answer": "printf(\"Hello\");",
+        "hint": "Use printf."
+      },
+      {
+        "id": "2-5",
+        "group": 1,
+        "index": 4,
+        "type": "debug",
+        "question": "Fix the missing semicolon.",
+        "code": "int a = 4\nint b = 5;",
+        "answer": ";",
+        "hint": "The first declaration needs ;."
+      },
+      {
+        "id": "2-6",
+        "group": 1,
+        "index": 5,
+        "type": "code",
+        "question": "Write a C condition that checks whether x is greater than 5.",
+        "code": "",
+        "answer": "if (x > 5)",
+        "hint": "Use >."
+      },
+      {
+        "id": "2-7",
+        "group": 1,
+        "index": 6,
+        "type": "debug",
+        "question": "Fix the missing closing parenthesis.",
+        "code": "if (x > 5 {\n  printf(\"Yes\");\n}",
+        "answer": ")",
+        "hint": "Close the if condition with )."
+      },
+      {
+        "id": "2-8",
+        "group": 1,
+        "index": 7,
+        "type": "code",
+        "question": "Write a C statement to store 7 multiplied by 2 in result.",
+        "code": "",
+        "answer": "int result = 7 * 2;",
+        "hint": "Use *."
+      },
+      {
+        "id": "2-9",
+        "group": 1,
+        "index": 8,
+        "type": "debug",
+        "question": "Fix the missing semicolon.",
+        "code": "int a = 3\nprintf(\"%d\", a);",
+        "answer": ";",
+        "hint": "Add ; after the declaration."
+      },
+      {
+        "id": "2-10",
+        "group": 1,
+        "index": 9,
+        "type": "code",
+        "question": "Write a C statement to store 9 divided by 3 in result.",
+        "code": "",
+        "answer": "int result = 9 / 3;",
+        "hint": "Use /."
+      },
+      {
+        "id": "2-11",
+        "group": 1,
+        "index": 10,
+        "type": "debug",
+        "question": "Fix the missing closing brace.",
+        "code": "if (x > 0) {\n  printf(\"Positive\");",
+        "answer": "}",
+        "hint": "Close the if block."
+      },
+      {
+        "id": "2-12",
+        "group": 1,
+        "index": 11,
+        "type": "code",
+        "question": "Write a C condition that checks whether n equals 10.",
+        "code": "",
+        "answer": "if (n == 10)",
+        "hint": "Use == for comparison."
+      },
+      {
+        "id": "2-13",
+        "group": 1,
+        "index": 12,
+        "type": "debug",
+        "question": "Fix the comparison operator.",
+        "code": "if (x = 5) {\n  printf(\"Five\");\n}",
+        "answer": "==",
+        "hint": "Use == for comparison."
+      },
+      {
+        "id": "2-14",
+        "group": 1,
+        "index": 13,
+        "type": "code",
+        "question": "Write a C statement that stores x + 1 in y.",
+        "code": "",
+        "answer": "int y = x + 1;",
+        "hint": "Use +."
+      },
+      {
+        "id": "2-15",
+        "group": 1,
+        "index": 14,
+        "type": "debug",
+        "question": "Fix the missing semicolon.",
+        "code": "int total = a + b\nprintf(\"%d\", total);",
+        "answer": ";",
+        "hint": "Add ; after the expression."
+      },
+      {
+        "id": "2-16",
+        "group": 1,
+        "index": 15,
+        "type": "code",
+        "question": "Write a C statement to print the value of marks.",
+        "code": "",
+        "answer": "printf(\"%d\", marks);",
+        "hint": "Use %d."
+      },
+      {
+        "id": "2-17",
+        "group": 1,
+        "index": 16,
+        "type": "debug",
+        "question": "Fix the missing closing parenthesis.",
+        "code": "printf(\"Hello\";",
+        "answer": ")",
+        "hint": "printf needs a closing parenthesis."
+      },
+      {
+        "id": "2-18",
+        "group": 1,
+        "index": 17,
+        "type": "code",
+        "question": "Write a C statement to store 25 in n.",
+        "code": "",
+        "answer": "int n = 25;",
+        "hint": "Use an integer declaration."
+      },
+      {
+        "id": "2-19",
+        "group": 1,
+        "index": 18,
+        "type": "debug",
+        "question": "Fix the missing semicolon.",
+        "code": "int count = 1\ncount = count + 1;",
+        "answer": ";",
+        "hint": "The declaration needs ;."
+      },
+      {
+        "id": "2-20",
+        "group": 1,
+        "index": 19,
+        "type": "code",
+        "question": "Write a C statement that stores a - b in result.",
+        "code": "",
+        "answer": "int result = a - b;",
+        "hint": "Use -."
+      }
+    ],
+    [
+      {
+        "id": "3-1",
+        "group": 2,
+        "index": 0,
+        "type": "debug",
+        "question": "Fix the missing semicolon.",
+        "code": "int x = 1\nint y = 2\nint z = x + y;",
+        "answer": ";",
+        "hint": "The first line is missing ;."
+      },
+      {
+        "id": "3-2",
+        "group": 2,
+        "index": 1,
+        "type": "code",
+        "question": "Write a C if statement that prints Yes when x is 10.",
+        "code": "",
+        "answer": "if (x == 10) printf(\"Yes\");",
+        "hint": "Use ==."
+      },
+      {
+        "id": "3-3",
+        "group": 2,
+        "index": 2,
+        "type": "debug",
+        "question": "Fix the missing comparison operator.",
+        "code": "if (age = 18) {\n  printf(\"Adult\");\n}",
+        "answer": "==",
+        "hint": "Use == to compare."
+      },
+      {
+        "id": "3-4",
+        "group": 2,
+        "index": 3,
+        "type": "code",
+        "question": "Write a C for loop that runs from 0 to 4.",
+        "code": "",
+        "answer": "for (int i = 0; i < 5; i++)",
+        "hint": "Use a basic for loop."
+      },
+      {
+        "id": "3-5",
+        "group": 2,
+        "index": 4,
+        "type": "debug",
+        "question": "Fix the missing semicolon.",
+        "code": "int i = 0\nwhile (i < 3) {\n  i++;\n}",
+        "answer": ";",
+        "hint": "The initialization needs ;."
+      },
+      {
+        "id": "3-6",
+        "group": 2,
+        "index": 5,
+        "type": "code",
+        "question": "Write a C statement that increments i by 1.",
+        "code": "",
+        "answer": "i++;",
+        "hint": "Use the increment operator."
+      },
+      {
+        "id": "3-7",
+        "group": 2,
+        "index": 6,
+        "type": "debug",
+        "question": "Fix the missing brace.",
+        "code": "for (int i = 0; i < 3; i++) {\n  printf(\"%d\", i);",
+        "answer": "}",
+        "hint": "Close the loop block."
+      },
+      {
+        "id": "3-8",
+        "group": 2,
+        "index": 7,
+        "type": "code",
+        "question": "Write a C while condition that continues while n is less than 5.",
+        "code": "",
+        "answer": "while (n < 5)",
+        "hint": "Use <."
+      },
+      {
+        "id": "3-9",
+        "group": 2,
+        "index": 8,
+        "type": "debug",
+        "question": "Fix the missing semicolon.",
+        "code": "int n = 5\nif (n > 3) {\n  printf(\"OK\");\n}",
+        "answer": ";",
+        "hint": "The declaration needs ;."
+      },
+      {
+        "id": "3-10",
+        "group": 2,
+        "index": 9,
+        "type": "code",
+        "question": "Write a C statement to decrement x by 1.",
+        "code": "",
+        "answer": "x--;",
+        "hint": "Use --."
+      },
+      {
+        "id": "3-11",
+        "group": 2,
+        "index": 10,
+        "type": "debug",
+        "question": "Fix the missing parenthesis.",
+        "code": "for (int i = 0; i < 5; i++ {\n  printf(\"%d\", i);\n}",
+        "answer": ")",
+        "hint": "Close the for condition."
+      },
+      {
+        "id": "3-12",
+        "group": 2,
+        "index": 11,
+        "type": "code",
+        "question": "Write a C condition checking whether n is less than or equal to 10.",
+        "code": "",
+        "answer": "if (n <= 10)",
+        "hint": "Use <=."
+      },
+      {
+        "id": "3-13",
+        "group": 2,
+        "index": 12,
+        "type": "debug",
+        "question": "Fix the missing semicolon.",
+        "code": "int sum = 0\nsum = sum + 1;",
+        "answer": ";",
+        "hint": "The declaration needs ;."
+      },
+      {
+        "id": "3-14",
+        "group": 2,
+        "index": 13,
+        "type": "code",
+        "question": "Write a C statement that stores x multiplied by 10 in y.",
+        "code": "",
+        "answer": "int y = x * 10;",
+        "hint": "Use *."
+      },
+      {
+        "id": "3-15",
+        "group": 2,
+        "index": 14,
+        "type": "debug",
+        "question": "Fix the assignment statement.",
+        "code": "int x = 5\nx x + 1;",
+        "answer": "=",
+        "hint": "Write x = x + 1;."
+      },
+      {
+        "id": "3-16",
+        "group": 2,
+        "index": 15,
+        "type": "code",
+        "question": "Write a C condition checking whether a is not equal to b.",
+        "code": "",
+        "answer": "if (a != b)",
+        "hint": "Use !=."
+      },
+      {
+        "id": "3-17",
+        "group": 2,
+        "index": 16,
+        "type": "debug",
+        "question": "Fix the missing semicolon.",
+        "code": "int result = 10 / 2\nprintf(\"%d\", result);",
+        "answer": ";",
+        "hint": "The declaration needs ;."
+      },
+      {
+        "id": "3-18",
+        "group": 2,
+        "index": 17,
+        "type": "code",
+        "question": "Write a C statement to store 2 raised conceptually as 2*2 in square.",
+        "code": "",
+        "answer": "int square = 2 * 2;",
+        "hint": "Use multiplication."
+      },
+      {
+        "id": "3-19",
+        "group": 2,
+        "index": 18,
+        "type": "debug",
+        "question": "Fix the missing brace.",
+        "code": "if (x == 0) {\n  printf(\"Zero\");\n",
+        "answer": "}",
+        "hint": "Close the if block."
+      },
+      {
+        "id": "3-20",
+        "group": 2,
+        "index": 19,
+        "type": "code",
+        "question": "Write a C statement that stores x + y + z in total.",
+        "code": "",
+        "answer": "int total = x + y + z;",
+        "hint": "Use +."
+      }
+    ],
+    [
+      {
+        "id": "4-1",
+        "group": 3,
+        "index": 0,
+        "type": "debug",
+        "question": "Fix the missing semicolon.",
+        "code": "int marks = 80\nif (marks >= 40) {\n  printf(\"Pass\");\n}",
+        "answer": ";",
+        "hint": "The declaration needs ;."
+      },
+      {
+        "id": "4-2",
+        "group": 3,
+        "index": 1,
+        "type": "code",
+        "question": "Write a C if-else statement that prints Pass when marks >= 40.",
+        "code": "",
+        "answer": "if (marks >= 40) { printf(\"Pass\"); } else { printf(\"Fail\"); }",
+        "hint": "Use if and else."
+      },
+      {
+        "id": "4-3",
+        "group": 3,
+        "index": 2,
+        "type": "debug",
+        "question": "Fix the comparison.",
+        "code": "if (marks > 40) {\n  printf(\"Pass\");\n}",
+        "answer": ">=",
+        "hint": "The condition should include 40."
+      },
+      {
+        "id": "4-4",
+        "group": 3,
+        "index": 3,
+        "type": "code",
+        "question": "Write a simple C function header named add that takes two integers.",
+        "code": "",
+        "answer": "int add(int a, int b)",
+        "hint": "Use two integer parameters."
+      },
+      {
+        "id": "4-5",
+        "group": 3,
+        "index": 4,
+        "type": "debug",
+        "question": "Fix the missing return.",
+        "code": "int add(int a, int b) {\n  int c = a + b;\n}",
+        "answer": "return c;",
+        "hint": "Return c from the function."
+      },
+      {
+        "id": "4-6",
+        "group": 3,
+        "index": 5,
+        "type": "code",
+        "question": "Write the return statement for a function returning variable result.",
+        "code": "",
+        "answer": "return result;",
+        "hint": "Use return."
+      },
+      {
+        "id": "4-7",
+        "group": 3,
+        "index": 6,
+        "type": "debug",
+        "question": "Fix the missing semicolon.",
+        "code": "int result = add(2, 3)\nprintf(\"%d\", result);",
+        "answer": ";",
+        "hint": "The function call needs ;."
+      },
+      {
+        "id": "4-8",
+        "group": 3,
+        "index": 7,
+        "type": "code",
+        "question": "Write a C function call to add 2 and 3 and store it in result.",
+        "code": "",
+        "answer": "int result = add(2, 3);",
+        "hint": "Call add with two values."
+      },
+      {
+        "id": "4-9",
+        "group": 3,
+        "index": 8,
+        "type": "debug",
+        "question": "Fix the missing brace.",
+        "code": "int add(int a, int b) {\n  return a + b;",
+        "answer": "}",
+        "hint": "Close the function."
+      },
+      {
+        "id": "4-10",
+        "group": 3,
+        "index": 9,
+        "type": "code",
+        "question": "Write a C condition that checks x is between 1 and 10 inclusive.",
+        "code": "",
+        "answer": "if (x >= 1 && x <= 10)",
+        "hint": "Use &&."
+      },
+      {
+        "id": "4-11",
+        "group": 3,
+        "index": 10,
+        "type": "debug",
+        "question": "Fix the logical operator.",
+        "code": "if (x > 0 & x < 10) {\n  printf(\"OK\");\n}",
+        "answer": "&&",
+        "hint": "Use logical AND."
+      },
+      {
+        "id": "4-12",
+        "group": 3,
+        "index": 11,
+        "type": "code",
+        "question": "Write a C statement that stores the remainder of a divided by b.",
+        "code": "",
+        "answer": "int r = a % b;",
+        "hint": "Use %."
+      },
+      {
+        "id": "4-13",
+        "group": 3,
+        "index": 12,
+        "type": "debug",
+        "question": "Fix the operator.",
+        "code": "int r = a /% b;",
+        "answer": "%",
+        "hint": "Use the remainder operator correctly."
+      },
+      {
+        "id": "4-14",
+        "group": 3,
+        "index": 13,
+        "type": "code",
+        "question": "Write a C loop that prints 1, 2, and 3 using i.",
+        "code": "",
+        "answer": "for (int i = 1; i <= 3; i++) printf(\"%d\", i);",
+        "hint": "Use a basic loop."
+      },
+      {
+        "id": "4-15",
+        "group": 3,
+        "index": 14,
+        "type": "debug",
+        "question": "Fix the missing semicolon.",
+        "code": "int i = 1\nfor (; i <= 3; i++) {\n  printf(\"%d\", i);\n}",
+        "answer": ";",
+        "hint": "Initialization needs ;."
+      },
+      {
+        "id": "4-16",
+        "group": 3,
+        "index": 15,
+        "type": "code",
+        "question": "Write a C condition that checks whether x is even.",
+        "code": "",
+        "answer": "if (x % 2 == 0)",
+        "hint": "Use %."
+      },
+      {
+        "id": "4-17",
+        "group": 3,
+        "index": 16,
+        "type": "debug",
+        "question": "Fix the missing comparison.",
+        "code": "if (x % 2 = 0) {\n  printf(\"Even\");\n}",
+        "answer": "==",
+        "hint": "Use == for comparison."
+      },
+      {
+        "id": "4-18",
+        "group": 3,
+        "index": 17,
+        "type": "code",
+        "question": "Write a C statement that stores the larger of a and b using a simple if.",
+        "code": "",
+        "answer": "if (a > b) max = a;",
+        "hint": "Use >."
+      },
+      {
+        "id": "4-19",
+        "group": 3,
+        "index": 18,
+        "type": "debug",
+        "question": "Fix the missing semicolon.",
+        "code": "max = a\nmin = b;",
+        "answer": ";",
+        "hint": "The first assignment needs ;."
+      },
+      {
+        "id": "4-20",
+        "group": 3,
+        "index": 19,
+        "type": "code",
+        "question": "Write a C statement to initialize count to zero.",
+        "code": "",
+        "answer": "int count = 0;",
+        "hint": "Use an integer variable."
+      }
+    ],
+    [
+      {
+        "id": "5-1",
+        "group": 4,
+        "index": 0,
+        "type": "debug",
+        "question": "Fix the missing semicolon.",
+        "code": "int n = 10\nif (n % 2 == 0) {\n  printf(\"Even\");\n}",
+        "answer": ";",
+        "hint": "The declaration needs ;."
+      },
+      {
+        "id": "5-2",
+        "group": 4,
+        "index": 1,
+        "type": "code",
+        "question": "Write a C function named square that returns x*x.",
+        "code": "",
+        "answer": "int square(int x) { return x * x; }",
+        "hint": "Use a simple function."
+      },
+      {
+        "id": "5-3",
+        "group": 4,
+        "index": 2,
+        "type": "debug",
+        "question": "Fix the return statement.",
+        "code": "int square(int x) {\n  return x x;\n}",
+        "answer": "*",
+        "hint": "Multiply x by x."
+      },
+      {
+        "id": "5-4",
+        "group": 4,
+        "index": 3,
+        "type": "code",
+        "question": "Write a C loop to print numbers 1 to 5.",
+        "code": "",
+        "answer": "for (int i = 1; i <= 5; i++) printf(\"%d\", i);",
+        "hint": "Use a for loop."
+      },
+      {
+        "id": "5-5",
+        "group": 4,
+        "index": 4,
+        "type": "debug",
+        "question": "Fix the loop condition.",
+        "code": "for (int i = 1; i < 5; i++) {\n  printf(\"%d\", i);\n}",
+        "answer": "<=",
+        "hint": "The loop must include 5."
+      },
+      {
+        "id": "5-6",
+        "group": 4,
+        "index": 5,
+        "type": "code",
+        "question": "Write a C condition to check if n is positive.",
+        "code": "",
+        "answer": "if (n > 0)",
+        "hint": "Use >."
+      },
+      {
+        "id": "5-7",
+        "group": 4,
+        "index": 6,
+        "type": "debug",
+        "question": "Fix the missing semicolon.",
+        "code": "int positive = 1\nprintf(\"%d\", positive);",
+        "answer": ";",
+        "hint": "The declaration needs ;."
+      },
+      {
+        "id": "5-8",
+        "group": 4,
+        "index": 7,
+        "type": "code",
+        "question": "Write a C statement that assigns 0 to total.",
+        "code": "",
+        "answer": "total = 0;",
+        "hint": "Use assignment."
+      },
+      {
+        "id": "5-9",
+        "group": 4,
+        "index": 8,
+        "type": "debug",
+        "question": "Fix the assignment operator.",
+        "code": "total == 0;",
+        "answer": "=",
+        "hint": "Use = for assignment."
+      },
+      {
+        "id": "5-10",
+        "group": 4,
+        "index": 9,
+        "type": "code",
+        "question": "Write a C statement that adds 5 to total.",
+        "code": "",
+        "answer": "total = total + 5;",
+        "hint": "Use +."
+      },
+      {
+        "id": "5-11",
+        "group": 4,
+        "index": 10,
+        "type": "debug",
+        "question": "Fix the missing semicolon.",
+        "code": "total = total + 5\nprintf(\"%d\", total);",
+        "answer": ";",
+        "hint": "Add ; after assignment."
+      },
+      {
+        "id": "5-12",
+        "group": 4,
+        "index": 11,
+        "type": "code",
+        "question": "Write a C condition for x being exactly zero.",
+        "code": "",
+        "answer": "if (x == 0)",
+        "hint": "Use ==."
+      },
+      {
+        "id": "5-13",
+        "group": 4,
+        "index": 12,
+        "type": "debug",
+        "question": "Fix the missing brace.",
+        "code": "if (x == 0) {\n  printf(\"Zero\");",
+        "answer": "}",
+        "hint": "Close the block."
+      },
+      {
+        "id": "5-14",
+        "group": 4,
+        "index": 13,
+        "type": "code",
+        "question": "Write a C statement that stores the average of a and b using integer division.",
+        "code": "",
+        "answer": "int avg = (a + b) / 2;",
+        "hint": "Use parentheses."
+      },
+      {
+        "id": "5-15",
+        "group": 4,
+        "index": 14,
+        "type": "debug",
+        "question": "Fix the missing parenthesis.",
+        "code": "int avg = a + b) / 2;",
+        "answer": "(",
+        "hint": "Add the opening parenthesis."
+      },
+      {
+        "id": "5-16",
+        "group": 4,
+        "index": 15,
+        "type": "code",
+        "question": "Write a C statement to call function show().",
+        "code": "",
+        "answer": "show();",
+        "hint": "Add parentheses and semicolon."
+      },
+      {
+        "id": "5-17",
+        "group": 4,
+        "index": 16,
+        "type": "debug",
+        "question": "Fix the missing semicolon.",
+        "code": "show()\nreturn 0;",
+        "answer": ";",
+        "hint": "The function call needs ;."
+      },
+      {
+        "id": "5-18",
+        "group": 4,
+        "index": 17,
+        "type": "code",
+        "question": "Write the basic return statement from main.",
+        "code": "",
+        "answer": "return 0;",
+        "hint": "Use return 0."
+      },
+      {
+        "id": "5-19",
+        "group": 4,
+        "index": 18,
+        "type": "debug",
+        "question": "Fix the missing brace.",
+        "code": "int main() {\n  return 0;",
+        "answer": "}",
+        "hint": "Close main."
+      },
+      {
+        "id": "5-20",
+        "group": 4,
+        "index": 19,
+        "type": "code",
+        "question": "Write a C statement to store 50 in score.",
+        "code": "",
+        "answer": "int score = 50;",
+        "hint": "Use an integer declaration."
+      }
+    ],
+    [
+      {
+        "id": "6-1",
+        "group": 5,
+        "index": 0,
+        "type": "debug",
+        "question": "Fix the missing semicolon.",
+        "code": "int a = 1\nint b = 2\nint c = 3;",
+        "answer": ";",
+        "hint": "Add ; to the first declaration."
+      },
+      {
+        "id": "6-2",
+        "group": 5,
+        "index": 1,
+        "type": "code",
+        "question": "Write a C function that returns a+b.",
+        "code": "",
+        "answer": "int add(int a, int b) { return a + b; }",
+        "hint": "Use a basic function."
+      },
+      {
+        "id": "6-3",
+        "group": 5,
+        "index": 2,
+        "type": "debug",
+        "question": "Fix the missing return statement.",
+        "code": "int add(int a, int b) {\n  int sum = a + b;\n}",
+        "answer": "return sum;",
+        "hint": "Return sum."
+      },
+      {
+        "id": "6-4",
+        "group": 5,
+        "index": 3,
+        "type": "code",
+        "question": "Write a C loop that counts from 1 to 10.",
+        "code": "",
+        "answer": "for (int i = 1; i <= 10; i++) printf(\"%d\", i);",
+        "hint": "Use a for loop."
+      },
+      {
+        "id": "6-5",
+        "group": 5,
+        "index": 4,
+        "type": "debug",
+        "question": "Fix the loop increment.",
+        "code": "for (int i = 0; i < 5; i--) {\n  printf(\"%d\", i);\n}",
+        "answer": "i++",
+        "hint": "Increment i."
+      },
+      {
+        "id": "6-6",
+        "group": 5,
+        "index": 5,
+        "type": "code",
+        "question": "Write a C condition that checks if age is 18 or more.",
+        "code": "",
+        "answer": "if (age >= 18)",
+        "hint": "Use >=."
+      },
+      {
+        "id": "6-7",
+        "group": 5,
+        "index": 6,
+        "type": "debug",
+        "question": "Fix the comparison.",
+        "code": "if (age => 18) {\n  printf(\"Adult\");\n}",
+        "answer": ">=",
+        "hint": "The operator is >=."
+      },
+      {
+        "id": "6-8",
+        "group": 5,
+        "index": 7,
+        "type": "code",
+        "question": "Write a C statement to set a variable ready to 1.",
+        "code": "",
+        "answer": "int ready = 1;",
+        "hint": "Use an integer."
+      },
+      {
+        "id": "6-9",
+        "group": 5,
+        "index": 8,
+        "type": "debug",
+        "question": "Fix the missing semicolon.",
+        "code": "int ready = 1\nprintf(\"%d\", ready);",
+        "answer": ";",
+        "hint": "Add ;."
+      },
+      {
+        "id": "6-10",
+        "group": 5,
+        "index": 9,
+        "type": "code",
+        "question": "Write a C condition that checks whether x is odd.",
+        "code": "",
+        "answer": "if (x % 2 != 0)",
+        "hint": "Use modulo and !=."
+      },
+      {
+        "id": "6-11",
+        "group": 5,
+        "index": 10,
+        "type": "debug",
+        "question": "Fix the comparison operator.",
+        "code": "if (x % 2 =! 0) {\n  printf(\"Odd\");\n}",
+        "answer": "!=",
+        "hint": "Use !=."
+      },
+      {
+        "id": "6-12",
+        "group": 5,
+        "index": 11,
+        "type": "code",
+        "question": "Write a C statement to store the result of 10 - 4 in x.",
+        "code": "",
+        "answer": "int x = 10 - 4;",
+        "hint": "Use -."
+      },
+      {
+        "id": "6-13",
+        "group": 5,
+        "index": 12,
+        "type": "debug",
+        "question": "Fix the missing semicolon.",
+        "code": "int x = 10 - 4\nprintf(\"%d\", x);",
+        "answer": ";",
+        "hint": "Add ;."
+      },
+      {
+        "id": "6-14",
+        "group": 5,
+        "index": 13,
+        "type": "code",
+        "question": "Write a C statement to store 3*4 in product.",
+        "code": "",
+        "answer": "int product = 3 * 4;",
+        "hint": "Use *."
+      },
+      {
+        "id": "6-15",
+        "group": 5,
+        "index": 14,
+        "type": "debug",
+        "question": "Fix the missing operator.",
+        "code": "int product = 3 4;",
+        "answer": "*",
+        "hint": "Use multiplication."
+      },
+      {
+        "id": "6-16",
+        "group": 5,
+        "index": 15,
+        "type": "code",
+        "question": "Write a C statement to store 20/5 in result.",
+        "code": "",
+        "answer": "int result = 20 / 5;",
+        "hint": "Use /."
+      },
+      {
+        "id": "6-17",
+        "group": 5,
+        "index": 16,
+        "type": "debug",
+        "question": "Fix the missing semicolon.",
+        "code": "int result = 20 / 5\nprintf(\"%d\", result);",
+        "answer": ";",
+        "hint": "Add ;."
+      },
+      {
+        "id": "6-18",
+        "group": 5,
+        "index": 17,
+        "type": "code",
+        "question": "Write a C statement to print a newline after Hello.",
+        "code": "",
+        "answer": "printf(\"Hello\\n\");",
+        "hint": "Use \n."
+      },
+      {
+        "id": "6-19",
+        "group": 5,
+        "index": 18,
+        "type": "debug",
+        "question": "Fix the missing quote.",
+        "code": "printf(\"Hello);",
+        "answer": "\"",
+        "hint": "Close the string with a quote."
+      }
+    ]
+  ],
+  "settings": {
+    "sound": true
+  }
+}
