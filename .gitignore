@@ -1,7 +1,46 @@
+# Dependencies
 node_modules/
-client/node_modules/
-server/node_modules/
-dist/
-client/dist/
+**/node_modules/
+
+# Environment variables / secrets
 .env
-.env.local
+.env.*
+!.env.example
+
+# Build output
+dist/
+**/dist/
+build/
+**/build/
+
+# Vite
+.vite/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+.DS_Store?
+Thumbs.db
+
+# IDE / editors
+.vscode/
+.idea/
+
+# Testing / coverage
+coverage/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Local database / development files
+*.sqlite
+*.sqlite3
+
+# Deployment
+.vercel/
